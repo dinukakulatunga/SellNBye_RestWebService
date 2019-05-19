@@ -36,4 +36,9 @@ my part is in User Profile Management folder
 #Student ID - IT17112192
 #Name - Jayasuriya J.A.T.P.
 
+#View Cart
+#Edit Cart Items
+#Enter Delivey Information
+#Enter Payment Information
+
 05---------------------------------------------------
