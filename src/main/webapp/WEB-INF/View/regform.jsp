@@ -11,7 +11,7 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Seller Registration Form</title>
+    <title>Supplier Registration Form</title>
 
     <link rel="icon" type="image/png" href="regimages/shopping-bag.png"/>
 
@@ -34,63 +34,27 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h2 class="title">Seller Registration Form</h2>
-                    <form method="POST" action="save-seller">
-                    <!-- <input type="hidden" name="id" value="${seller.id}"/> -->
+                    <h2 class="title">Supplier Registration Form</h2>
+                    <form method="POST" action="save-supplier">
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">first name</label>
-                                    <input class="input--style-4" type="text" name="first_name" value="${seller.fname}"/>
+                                    <label class="label">Company Name</label>
+                                    <input class="input--style-4" type="text" name="cmpName" value="${supplier.cmpName}">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">last name</label>
-                                    <input class="input--style-4" type="text" name="last_name" value="${seller.lname}"/>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Display Name</label>
-                                    <input class="input--style-4" type="text" name="display_name">
+                                    <label class="label">Agent name</label>
+                                    <input class="input--style-4" type="text" name="agt_name" value="${supplier.agt_name}">
                                 </div>
                             </div>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Birthday</label>
-                                    <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="birthday">
-                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Gender</label>
-                                    <div class="p-t-10">
-                                        <label class="radio-container m-r-45">Male
-                                            <input type="radio" checked="checked" name="gender">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                        <label class="radio-container">Female
-                                            <input type="radio" name="gender">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Address</label>
-                                    <textarea rows="5" cols="70" name="description"></textarea>
+                                <div class="input-group" >
+                                    <label class="label">Company Address</label>
+                                    <textarea rows="5" cols="70" name="cmp_address" value="${supplier.cmp_address}"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -98,21 +62,13 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Country</label>
-                                    <input class="input--style-4" type="text" name="first_name">
+                                    <input class="input--style-4" type="text" name="cmp_country" value="${supplier.cmp_country}">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">City/Town</label>
-                                    <input class="input--style-4" type="text" name="last_name">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Postal Code</label>
-                                    <input class="input--style-4" type="text" name="first_name">
+                                    <label class="label">Company Website</label>
+                                    <input class="input--style-4" type="text" name="cmp_website" value="${supplier.cmp_website}">
                                 </div>
                             </div>
                         </div>
@@ -120,24 +76,24 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Email</label>
-                                    <input class="input--style-4" type="email" name="email">
+                                    <input class="input--style-4" type="email" name="cmp_email" value="${supplier.cmp_email}">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Phone Number</label>
-                                    <input class="input--style-4" type="text" name="phone">
+                                    <input class="input--style-4" type="text" name="cmp_phnumber" value="${supplier.cmp_phnumber}">
                                 </div>
                             </div>
                         </div>
-                        <div class="input-group">
+                        <div class="input-group" >
                             <label class="label">Main Product Category</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject">
-                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                <select name="prod_category" >
+                                    <option disabled="disabled" selected="selected" value="${supplier.prod_category}">Choose option</option>
                                     <option>Women's Clothing</option>
                                     <option>Men's Clothing</option>
-                                    <option>Cellphones and Accessories</option>
+                                    <option>Cell Phones and Accessories</option>
                                     <option>Computers and Accessories</option>
                                 </select>
                                 <div class="select-dropdown"></div>
@@ -147,16 +103,16 @@
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Password</label>
-                                    <input class="input--style-4" type="email" name="email">
+                                    <input class="input--style-4" type="password" name="password" value="${supplier.password}">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Confirm Password</label>
-                                    <input class="input--style-4" type="text" name="phone">
+                                    <input class="input--style-4" type="text" name="confpw">
                                 </div>
                             </div>
-                        </div>  -->
+                        </div>
                         <div class="p-t-15">
                         <input type="submit" class="btn btn--radius-2 btn--blue" value="Register"/>
                             <!-- <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button> -->

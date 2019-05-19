@@ -64,7 +64,7 @@
 							</div>
 							<div class="up-item">
 								<i class="flaticon-profile"></i>
-								<a href="/Login">Sign as a seller</a>
+								<a href="/login">Sign as Admin</a>
 							</div>
 								<!--<a href="#">Shopping Cart</a>-->
 							</div>
@@ -100,7 +100,7 @@
 							<li><a href="./cart.html">Cart Page</a></li>
 							<li><a href="./checkout.html">Checkout Page</a></li>
 							<li><a href="./contact.html">Contact Page</a></li>
-							<li><a href="/seller">Seller Page</a></li>
+							<li><a href="/admin">Seller Page</a></li>
 						</ul>
 					</li>
 				</ul>

@@ -2,7 +2,8 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-<head><!-- Required meta tags-->
+<head>
+    <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Colorlib Templates">
@@ -10,11 +11,9 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Add new product</title>
+    <title>Update Supplier</title>
 
-    <link rel="icon" type="image/png" href="static/img/shopping-bag.png"/>
-
-
+    <link rel="icon" type="image/png" href="regimages/shopping-bag.png"/>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -35,79 +34,88 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4">
                 <div class="card-body">
-                    <h2 class="title">Add new product</h2>
-                    <form method="POST">
+                    <h2 class="title">Update Supplier Details</h2>
+                    <form method="POST" action="save-supplier">
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Product Name</label>
-                                    <input class="input--style-4" type="text" name="first_name">
+                                    <label class="label">Company Name</label>
+                                    <input class="input--style-4" type="text" name="cmpName">
                                 </div>
                             </div>
-                            <div class="input-group">
-                                <label class="label">Category</label>
-                                <div class="rs-select2 js-select-simple select--no-search">
-                                    <select name="subject">
-                                        <option disabled="disabled" selected="selected">Choose option</option>
-                                        <option>Women's Clothing</option>
-                                        <option>Men's Clothing</option>
-                                        <option>Cellphones and Accessories</option>
-                                        <option>Computers and Accessories</option>
-                                    </select>
-                                    <div class="select-dropdown"></div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Agent name</label>
+                                    <input class="input--style-4" type="text" name="agt_name">
                                 </div>
                             </div>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Description</label>
-                                    <textarea rows="5" cols="70" name="description"></textarea>
+                                    <label class="label">Company Address</label>
+                                    <textarea rows="5" cols="70" name="cmp_address"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Available Quantity</label>
-                                    <input class="input--style-4" type="number" name="first_name">
+                                    <label class="label">Country</label>
+                                    <input class="input--style-4" type="text" name="cmp_country">
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">Product weight(G)</label>
-                                    <input class="input--style-4" type="number" name="last_name">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Date</label>
-                                    <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="birthday">
-                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                                    </div>
+                                    <label class="label">Company Website</label>
+                                    <input class="input--style-4" type="text" name="cmp_website">
                                 </div>
                             </div>
                         </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">Upload</span>
-                                    </div>
-                                    <div class="custom-file">
-                                        <input type="file" class="custom-file-input" id="inputGroupFile01">
-                                        <label class="custom-file-label" for="inputGroupFile01"></label>
-                                    </div>
+                                    <label class="label">Email</label>
+                                    <input class="input--style-4" type="email" name="cmp_email">
                                 </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Phone Number</label>
+                                    <input class="input--style-4" type="text" name="cmp_phnumber">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Main Product Category</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="prod_category">
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Women's Clothing</option>
+                                    <option>Men's Clothing</option>
+                                    <option>Cell Phones and Accessories</option>
+                                    <option>Computers and Accessories</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Password</label>
+                                    <input class="input--style-4" type="email" name="password">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Confirm Password</label>
+                                    <input class="input--style-4" type="text" name="confpw">
                                 </div>
                             </div>
                         </div>
                         <div class="p-t-15">
-                            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                        <input type="submit" class="btn btn--radius-2 btn--blue" value="Update"/>
+                            <!-- <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button> -->
                         </div>
                     </form>
                 </div>
