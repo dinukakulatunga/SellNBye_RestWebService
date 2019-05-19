@@ -42,3 +42,15 @@
 #Enter Payment Information
 
 05---------------------------------------------------
+
+#Supplier Management System
+
+#Student ID - IT17102810
+#Name - D.D.H Kulathunga
+
+#View Suppliers
+#Edit Suppliers
+#Enter Suppliers
+#Delete Suppliers
+#Update Admin Details
+
