@@ -1,6 +1,6 @@
 "# SellNBye_RestWebService"
 
-Create a brac
+Create a branch
 User Profile Management
 
 Customer profile management.
