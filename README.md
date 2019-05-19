@@ -54,3 +54,4 @@
 #Delete Suppliers
 #Update Admin Details
 
+**********************************EXCEPT SELLNBYE, USER PROFILE MANAGEMENT,ORDER MANAGEMENT AND CRUSTCRUD FOLDERS, ALL OTHER DOCUMENTS AND FOLDERS ARE MY DOCUMENTS..**********************************************************************************************
