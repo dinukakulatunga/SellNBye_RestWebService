@@ -20,4 +20,12 @@
 
 #My part is in the "custCRUD" folder.
 
-03-------------------------------------------------
+03---------------------------------------------------
+
+#Product Management
+
+#Can be add,view,search,update and delete products
+#Registartion Number - IT17131520
+#Name - W.L.S. Eshan
+
+04---------------------------------------------------
