@@ -15,7 +15,7 @@
 
 02--------------------------------------------------
 
-#Cutomer admin side(view/delete) & #Customer Registration
+#Cutomer admin side(view/delete/update) & #Customer Registration
 
 #Done by - W.W.S.R.M.Umindu Pasan - IT17090636
 
