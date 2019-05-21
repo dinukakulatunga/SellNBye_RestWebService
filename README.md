@@ -19,7 +19,7 @@
 
 #Done by - W.W.S.R.M.Umindu Pasan - IT17090636
 
-#My part is in the "custCRUD" folder.
+#My part is in the "custCRUD" folder & the sql file is customers.sql.
 
 03---------------------------------------------------
 
