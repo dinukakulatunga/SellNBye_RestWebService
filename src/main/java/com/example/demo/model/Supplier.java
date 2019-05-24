@@ -4,6 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "seller") // table name
@@ -11,21 +12,29 @@ public class Supplier {
 
 	@Id
 	private int id;
+	
 	private String cmpName;
+	
 	private String agt_name;
+	
 	private String cmp_address;
+	
 	private String cmp_country;
+	
 	private String cmp_email;
+	
 	private String cmp_phnumber;
+	
 	private String cmp_website;
+	
 	private String prod_category;
-	private String password;
+	
 
 	public Supplier() {
 	}
 
 	public Supplier(String cmpName, String agt_name, String cmp_address, String cmp_country, String cmp_email,
-			String cmp_phnumber, String cmp_website, String prod_category, String password) {
+			String cmp_phnumber, String cmp_website, String prod_category) {
 		super();
 		this.cmpName = cmpName;
 		this.agt_name = agt_name;
@@ -35,7 +44,6 @@ public class Supplier {
 		this.cmp_phnumber = cmp_phnumber;
 		this.cmp_website = cmp_website;
 		this.prod_category = prod_category;
-		this.password = password;
 	}
 
 	public int getId() {
@@ -110,20 +118,15 @@ public class Supplier {
 		this.prod_category = prod_category;
 	}
 
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
 	@Override
 	public String toString() {
 		return "Supplier [id=" + id + ", cmpName=" + cmpName + ", agt_name=" + agt_name + ", cmp_address=" + cmp_address
 				+ ", cmp_country=" + cmp_country + ", cmp_email=" + cmp_email + ", cmp_phnumber=" + cmp_phnumber
-				+ ", cmp_website=" + cmp_website + ", prod_category=" + prod_category + ", password=" + password + "]";
+				+ ", cmp_website=" + cmp_website + ", prod_category=" + prod_category + "]";
 	}
+
+
+	
 
 	
 

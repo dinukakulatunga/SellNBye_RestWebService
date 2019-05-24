@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome To SellNBye</title>
+<title>SellNBye Homepage</title>
 	<meta charset="UTF-8">
 	<meta name="description" content=" Divisima | eCommerce Template">
 	<meta name="keywords" content="divisima, eCommerce, creative, html">
@@ -58,15 +58,14 @@
 					</div>
 					<div class="col-xl-4 col-lg-5">
 						<div class="user-panel">
-							<div class="up-item">
+							<!-- <div class="up-item">
 								<i class="flaticon-profile"></i>
 								<a href="Login.html">Sign</a> In or <a href="reg.html">Create Account</a>
-							</div>
+							</div>-->
 							<div class="up-item">
 								<i class="flaticon-profile"></i>
-								<a href="/login">Sign as Admin</a>
+								<a href="/Logout">Sign out</a>
 							</div>
-								<!--<a href="#">Shopping Cart</a>-->
 							</div>
 						</div>
 					</div>
@@ -93,16 +92,16 @@
 							<!--<li><a href="#">Flip Flops</a></li>-->
 						<!--</ul>-->
 					<!--</li>-->
-					<!--<li><a href="#">Pages</a>
-						<ul class="sub-menu">
+					<li><a href="/admin">Seller Page</a>
+						<!-- <ul class="sub-menu">
 							<li><a href="./product.html">Product Page</a></li>
 							<li><a href="./category.html">Category Page</a></li>
 							<li><a href="./cart.html">Cart Page</a></li>
 							<li><a href="./checkout.html">Checkout Page</a></li>
 							<li><a href="./contact.html">Contact Page</a></li>
 							<li><a href="/admin">Seller Page</a></li>
-						</ul>
-					</li>-->
+						</ul>-->
+					</li>
 				</ul>
 			</div>
 		</nav>

@@ -7,26 +7,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="loginimages/icons/shopping-bag.png"/>
+	<link rel="icon" type="image/png" href="static/Seller/loginimages/icons/shopping-bag.png"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="loginvendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginvendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="loginfonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginfonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="loginfonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginfonts/iconic/css/material-design-iconic-font.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="loginvendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginvendor/animate/animate.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="loginvendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginvendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="loginvendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginvendor/animsition/css/animsition.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="loginvendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginvendor/select2/select2.min.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="loginvendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/loginvendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="logincss/util.css">
-	<link rel="stylesheet" type="text/css" href="logincss/main.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/logincss/util.css">
+	<link rel="stylesheet" type="text/css" href="static/Seller/logincss/main.css">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -34,9 +34,9 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('loginimages/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form" action="/login-admin">
+				<form class="login100-form validate-form" action="/login-admin" method="POST">
 					<c:if test="${not empty error }">
-						<div class= alert alert-danger>
+						<div class= "alert alert-danger">
 						<c:out value="${error}"></c:out>
 						</div>
 					</c:if>
@@ -46,7 +46,7 @@
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
 						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="cmpName" placeholder="Type your username">
+						<input class="input100" type="text" name="username" placeholder="Type your username">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
@@ -79,21 +79,21 @@
 	<div id="dropDownSelect1"></div>
 	
 <!--===============================================================================================-->
-	<script src="loginvendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="static/Seller/loginvendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="loginvendor/animsition/js/animsition.min.js"></script>
+	<script src="static/Seller/loginvendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-	<script src="loginvendor/bootstrap/js/popper.js"></script>
-	<script src="loginvendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="static/Seller/loginvendor/bootstrap/js/popper.js"></script>
+	<script src="static/Seller/loginvendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="loginvendor/select2/select2.min.js"></script>
+	<script src="static/Seller/loginvendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-	<script src="loginvendor/daterangepicker/moment.min.js"></script>
-	<script src="loginvendor/daterangepicker/daterangepicker.js"></script>
+	<script src="static/Seller/loginvendor/daterangepicker/moment.min.js"></script>
+	<script src="static/Seller/loginvendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-	<script src="loginvendor/countdowntime/countdowntime.js"></script>
+	<script src="static/Seller/loginvendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-	<script src="loginjs/main.js"></script>
+	<script src="static/Seller/loginjs/main.js"></script>
 
 </body>
 </html>

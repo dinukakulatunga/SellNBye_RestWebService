@@ -9,22 +9,22 @@
     <meta name="keywords" content="divisima, eCommerce, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link href="../img/shopping-bag.png" rel="shortcut icon"/>
+    <link href="static/img/shopping-bag.png" rel="shortcut icon"/>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="../css/flaticon.css"/>
-    <link rel="stylesheet" href="../css/slicknav.min.css"/>
-    <link rel="stylesheet" href="../css/jquery-ui.min.css"/>
-    <link rel="stylesheet" href="../css/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="../css/animate.css"/>
-    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="static/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="static/css/flaticon.css"/>
+    <link rel="stylesheet" href="static/css/slicknav.min.css"/>
+    <link rel="stylesheet" href="static/css/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="static/css/animate.css"/>
+    <link rel="stylesheet" href="static/css/style.css"/>
 
 
     <!--[if lt IE 9]>
@@ -46,8 +46,8 @@
             <div class="row">
                 <div class="col-lg-2 text-center text-lg-left">
                     <!-- logo -->
-                    <a href="../index.html" class="site-logo">
-                        <img src="../img/logo.png" alt="">
+                    <a href="/admin" class="site-logo">
+                        <img src="static/img/sellnbyeLogo.png" alt="">
                     </a>
                 </div>
                 <div class="col-xl-6 col-lg-5">
@@ -60,7 +60,7 @@
                     <div class="user-panel">
                         <div class="up-item">
                             <i class="flaticon-profile"></i>
-                            <a href="#">welcome Dinuka</a>
+                            <a href="/Logout">Sign out</a>
                         </div>
                         <!--<div class="up-item">-->
                             <!--<div class="shopping-card">-->
@@ -78,7 +78,7 @@
         <div class="container">
             <!-- menu -->
             <ul class="main-menu">
-                <li><a href="/index">Home</a></li>
+                <li><a href="/admin">Home</a></li>
                 <li><a href="../category.html">Category</a></li>
                 <li><a href="/show-suppliers">Suppliers</a></li>
                 <li><a href="/regform">Add Supplier
@@ -114,7 +114,7 @@
 <section class="footer-section">
     <div class="container">
         <div class="footer-logo text-center">
-            <a href="../index.html"><img src="../img/logo-light.png" alt=""></a>
+            <a href="/admin"><img src="static/img/sellnbyeLogo.png" alt=""></a>
         </div>
         <div class="row">
             <div class="col-lg-3 col-sm-6">
@@ -214,14 +214,14 @@
 
 
 <!--====== Javascripts & Jquery ======-->
-<script src="../js/jquery-3.2.1.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/jquery.slicknav.min.js"></script>
-<script src="../js/owl.carousel.min.js"></script>
-<script src="../js/jquery.nicescroll.min.js"></script>
-<script src="../js/jquery.zoom.min.js"></script>
-<script src="../js/jquery-ui.min.js"></script>
-<script src="../js/main.js"></script>
+<script src="static/js/jquery-3.2.1.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/jquery.slicknav.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/jquery.nicescroll.min.js"></script>
+<script src="static/js/jquery.zoom.min.js"></script>
+<script src="static/js/jquery-ui.min.js"></script>
+<script src="static/js/main.js"></script>
 
 </body>
 </html>
